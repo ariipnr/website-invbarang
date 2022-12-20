@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>asdasda</title>
+</head>
+<body>
+	<table border="1px">
+		<thead>
+			<th align="left">Kode Alat</th>
+		</thead>
+		<tr>
+			<td><input type="text" name="kd_alat">&nbsp;</td>
+		</tr>
+
+		<tr>
+			<th align="left">Kategori</th>
+			<th align="left">Merek</th>
+			<th align="left">Nama Alat</th>
+		</tr>
+		<tr>
+				<td>
+							
+							<select name="kategori">
+								<?php
+									foreach ($daftar_kategori as $kategori) {
+											echo "<option value='$kategori'>$kategori</option>";
+										}
+								?>
+							</select>
+							
+						&nbsp;</td>
+				<td><input type="text" name="merek" >&nbsp;</td>
+				<td><input type="text" name="nama_alat" >&nbsp;</td>
+		</tr>
+
+		<tr>
+						<th align="left">Spesifikasi</th>
+						<th align="left">Jumlah</th>
+		</tr>
+		<tr>
+						<td><textarea cols="50" rows="10" name="spek">Spesifikasi Alat</textarea>&nbsp;</td>
+						<td><input type="text" name="jml">&nbsp;</td>
+		</tr>
+
+	</table>
+<input type="submit" name="simpan!">
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+* {
+	margin: auto;
+	font-family: sans-serif, Tahoma, Arial;
+
+}
+
+
+section .content {
+	width: 1250px;
+}
+
+section a {
+	text-decoration: none;
+	color: #ff5483;
+
+}
+
+section a:hover{
+	text-decoration: underline;
+}
+
+#section1 {
+	padding: 50px 0;
+	background-position: top center;
+	min-height: 70px;
+	background-repeat: no-repeat;
+	padding-top: 30px;
+}
+
+#section2 .left{
+	width: 275px;
+}
+
+#section2 {
+	padding: 50px 0;
+	text-align: center;
+	min-height: 350px
+}
+
+#section3 {
+	padding-top: 40px;
+	text-align: left;
+	min-height: 70px;
+	padding-bottom: 30px;
+}
+
+#section4 {
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	text-align: center;
+	min-height: 40px;
+	color: white;
+
+}
+
+#menu {
+	padding: 15px 0;
+	width: 100%;
+}
+
+#menu ul{
+	list-style: none;
+	padding: 0;
+}
+
+#menu ul li{
+	display: inline;
+	margin: 10px 10px 0 0;
+}
+
+#menu ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+#menu ul li a:hover{
+	color: black
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 33pt;
+}
+
+h2 {
+	font-size: 25pt;
+
+}
+
+h3{
+	font-size: 17pt;
+
+}
+
+p {
+	margin: 15px 0;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center{
+	float: center;
+}
+
+.clear{
+	clear: both;
+}
+
+.btn {
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 8px 15px;
+}
+
+.btn-white{
+	background-color: white;
+	color: gray;
+}
+
+.btn-white:hover{
+	background-color: #e6e6e6;
+
+}
+
+.btn-pink{
+	background-color: #ff5483;
+	color: white;
+}
+
+.btn-pink:hover{
+	background-color: #ff326a;
+}
+
+.no-sticky{
+	/*position: absolute;*/
+	background-color: #313131;
+}
+
+.sticky{
+	background-color: #313131;
+	position: fixed;
+}
+
+.navy {
+	background-color: #0d3b78;
+	color: white;
+
+}
+
+.white {
+	background-color: white;
+	color: gray;
+}
+
+.gray{
+	background-color: #313131;
+
+}
+
+
+.isi{
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.isi:hover{
+	-moz-transform: translate(1em,2em); 
+	-webkit-transform: translate(1em,2em);
+}
+
+#jam, #menit, #detik{
+	color: white;
+}
+
+.putih {
+	color: white;
+	padding: 0px 15px;
+}
